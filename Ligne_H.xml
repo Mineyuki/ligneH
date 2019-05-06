@@ -2,6 +2,68 @@
 
 <ligne_H>
     <gares>
+        <gare idGare="1">Auvers sur Oise</gare>
+        <gare idGare="2">Belloy Saint-Martin</gare>
+        <gare idGare="3">Bessancourt</gare>
+        <gare idGare="4">Boran sur Oise</gare>
+        <gare idGare="5">Bouffemont Moisselles</gare>
+        <gare idGare="6">Bruyeres sur Oise</gare>
+        <gare idGare="7">Cernay</gare>
+        <gare idGare="8">Champ de Courses d'Enghien</gare>
+        <gare idGare="9">Champagne sur Oise</gare>
+        <gare idGare="10">Chaponval</gare>
+        <gare idGare="11">Creil</gare>
+        <gare idGare="12">Deuil Montmagny</gare>
+        <gare idGare="13">Domont</gare>
+        <gare idGare="14">Ecouen Ezanville</gare>
+        <gare idGare="15">Enghien les Bains</gare>
+        <gare idGare="16">Epinay Villetaneuse</gare>
+        <gare idGare="17">Epluches</gare>
+        <gare idGare="18">Ermont Eaubonne</gare>
+        <gare idGare="19">Ermont Halte</gare>
+        <gare idGare="20">Franconville le Plessis Bouchard</gare>
+        <gare idGare="21">Frepillon</gare>
+        <gare idGare="22">Gros Noyer Saint-Prix</gare>
+        <gare idGare="23">Groslay</gare>
+        <gare idGare="24">L'Isle Adam Parmain</gare>
+        <gare idGare="25">La Barre Ormesson</gare>
+        <gare idGare="26">Luzarches</gare>
+        <gare idGare="27">Meriel</gare>
+        <gare idGare="28">Mery sur Oise</gare>
+        <gare idGare="29">Montigny Beauchamp</gare>
+        <gare idGare="30">Montsoult Maffliers</gare>
+        <gare idGare="31">Nointel Mours</gare>
+        <gare idGare="32">Paris Nord</gare>
+        <gare idGare="33">Persan Beaumont</gare>
+        <gare idGare="34">Pierrelaye</gare>
+        <gare idGare="35">Pont Petit</gare>
+        <gare idGare="36">Pontoise</gare>
+        <gare idGare="37">Precy sur Oise</gare>
+        <gare idGare="38">Presles Courcelles</gare>
+        <gare idGare="39">Saint-Denis</gare>
+        <gare idGare="40">Saint-Leu d'Esserent</gare>
+        <gare idGare="41">Saint-Leu la Foret</gare>
+        <gare idGare="42">Saint-Ouen l'Aumone</gare>
+        <gare idGare="43">Saint-Ouen l'Aumone Liesse</gare>
+        <gare idGare="44">Sarcelles Saint-Brice</gare>
+        <gare idGare="45">Seugy</gare>
+        <gare idGare="46">Taverny</gare>
+        <gare idGare="47">Valmondois</gare>
+        <gare idGare="48">Vaucelles</gare>
+        <gare idGare="49">Viarmes</gare>
+        <gare idGare="50">Villaines</gare>
+    </gares>
+    <trains>
+        <train id = "lomi ">
+            <jours>
+                <jour></jour>
+            </jours>
+            <depart idGare="1"/>
+            <arrive idGare="16"/>
+            <horaire idGare="1">5:30</horaire>
+            <horaire idGare="6">5:40</horaire>
+        </train>
+    </trains>
         <Paris-Nord>
             <horaires>
                 <depart-Gare-du-Nord>
