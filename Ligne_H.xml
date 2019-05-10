@@ -53,683 +53,170 @@
         <gare idGare="49">Viarmes</gare>
         <gare idGare="50">Villaines</gare>
     </gares>
-    <trains>
-        <train id = "lomi ">
-            <jours>
-                <jour></jour>
-            </jours>
-            <depart idGare="1"/>
-            <arrive idGare="16"/>
-            <horaire idGare="1">5:30</horaire>
-            <horaire idGare="6">5:40</horaire>
-        </train>
-    </trains>
-        <Paris-Nord>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:19 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:34
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 5:49 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 5:58
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:04
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:10
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:13  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:25 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:28 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:34
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-
-            </horaires>
-        </Paris-Nord>
-        <Saint-Denis>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:25
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:40
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 5:55 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                     <horaire id = "LOMI"> 6:10
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:19  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:34 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:40
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Saint-Denis>
-        <Epinay-villetaneuse>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:29
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:44
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 5:59 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                     <horaire id = "LOMI"> 6:14
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:23  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:38 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:44
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Epinay-villetaneuse>
-        <Deuil-Montmagny>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:32 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:47
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:02 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:11
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:17
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:26  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:41 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:47
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Deuil-Montmagny>
-        <groslay>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:35
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:50
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:05 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:14
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:20
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:29  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:44 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:50
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </groslay>
-        <Sarcelles-St-Brice>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:38 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:53
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:08 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:16
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:23
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:22
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:31  
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:37 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "SOGA"> 6:46 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Sarcelles Saint-Brice </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:53
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Sarcelles-St-Brice>
-        <Ecouen-Ezanville>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:41 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:56
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:11 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:26
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:26
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:41 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:56
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Ecouen-Ezanville>
-        <Domont>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:44 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 5:59
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:14 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:29
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:29
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:44 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:59
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Domont>
-        <Bouffemont-Moisselles>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:47 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:02
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:17 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:32
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:32
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:47 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 7:02
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Bouffemont-Moisselles>
-        <Montsoult-Maffliers>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:52 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 6:06
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:22 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:36
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:35
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:51 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 7:06
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Montsoult-Maffliers>
-        <Villaines>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:56 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:26 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:39
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:55 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Villaines>
-        <Belloy-St-Martin>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 5:59 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:29 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:42
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 6:59 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Belloy-St-Martin>
-        <Viarmes>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 6:02
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:32 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:45
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 7:03 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Viarmes>
-        <Seugy>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 6:05 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:35 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:49
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 7:06 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Seugy>
-        <Luzarches>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "LOMI"> 6:09 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:39 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LOMI"> 6:52
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                    <horaire id = "LEMI"> 7:09 
-                        <depart> Gare du Nord </depart>
-                        <arriver> Luzarches </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Luzarches>
-        <La-Barre-Ormesson>
-            <horaires>
-                
-            </horaires>
-        </La-Barre-Ormesson>
-        <Enghien-les-Bains>
-            <horaires>
-                
-            </horaires>
-        </Enghien-les-Bains>
-        <Champ-de-courses-enghien>
-            <horaires>
-                
-            </horaires>
-        </Champ-de-courses-enghien>
-        <Ermont-Eaubonne>
-            <horaires>
-                
-            </horaires>
-        </Ermont-Eaubonne>
-        <Ermont-Halte>
-            <horaires>
-                
-            </horaires>
-        </Ermont-Halte>
-        <Gros-Noyer-St-Prix>
-            <horaires>
-                
-            </horaires>
-        </Gros-Noyer-St-Prix>
-        <St-Leu-La-Foret>
-            <horaires>
-                
-            </horaires>
-        </St-Leu-La-Foret>
-        <Vaucelles>
-            <horaires>
-                
-            </horaires>
-        </Vaucelles>
-        <Terverny>
-            <horaires>
-                
-            </horaires>
-        </Terverny>
-        <Bessancourt>
-            <horaires>
-                
-            </horaires>
-        </Bessancourt>
-        <Frepillon>
-            <horaires>
-                
-            </horaires>
-        </Frepillon>
-        <Mery-sur-oise>
-            <horaires>
-                
-            </horaires>
-        </Mery-sur-oise>
-        <Meriel>
-            <horaires>
-                
-            </horaires>
-        </Meriel>
-        <Cernay>
-            <horaires>
-                
-            </horaires>
-        </Cernay>
-        <Franconville-Le-Plessis>
-            <horaires>
-                
-            </horaires>
-        </Franconville-Le-Plessis>
-        <Montigny-beauchamps>
-            <horaires>
-                
-            </horaires>
-        </Montigny-beauchamps>
-        <Pierrelay>
-            <horaires>
-                
-            </horaires>
-        </Pierrelay>
-        <St-Ouen-l-aumone-liesse>
-            <horaires>
-                
-            </horaires>
-        </St-Ouen-l-aumone-liesse>
-        <St-Ouen-l-aumone>
-            <horaires>
-                
-            </horaires>
-        </St-Ouen-l-aumone>
-        <Epluches>
-            <horaires>
-                
-            </horaires>
-        </Epluches>
-        <Pont-Petit>
-            <horaires>
-                
-            </horaires>
-        </Pont-Petit>
-        <Chaponval>
-            <horaires>
-                
-            </horaires>
-        </Chaponval>
-        <Auvers-sur-oise>
-            <horaires>
-                
-            </horaires>
-        </Auvers-sur-oise>
-        <Valmondois>
-            <horaires>
-                
-            </horaires>
-        </Valmondois>
-        <Champagne-sur-oise>
-            <horaires>
-                
-            </horaires>
-        </Champagne-sur-oise>
-        <Persan-Beaumont>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "POMA"> 6:19
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:37
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 7:19
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Persan-Beaumont>
-        <Bruyere-sur-oise>
-            <horaires>
-                
-            </horaires>
-        </Bruyere-sur-oise>
-        <Presles-courcelles>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "POMA"> 6:12
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:41
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 7:12
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Presles-courcelles>
-        <Nointel-Mours>
-            <horaires>
-                <depart-Gare-du-Nord>
-                    <horaire id = "POMA"> 6:15
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "PEMI"> 6:44
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                    <horaire id = "POMA"> 7:15
-                        <depart> Gare du Nord </depart>
-                        <arriver> Persan Beaumont </arriver>
-                    </horaire>
-                </depart-Gare-du-Nord>
-            </horaires>
-        </Nointel-Mours>
-    </gares>
+    <train>
+        <nom idTrain="1">ADDO</nom>
+        <nom idTrain="2">ADEO</nom>
+        <nom idTrain="3">ADEP</nom>
+        <nom idTrain="4">AFOI</nom>
+        <nom idTrain="5">AOGA</nom>
+        <nom idTrain="6">AOLA</nom>
+        <nom idTrain="7">AOMA</nom>
+        <nom idTrain="8">AOSA</nom>
+        <nom idTrain="9">APOR</nom>
+        <nom idTrain="10">AREP</nom>
+        <nom idTrain="11">AREV</nom>
+        <nom idTrain="12">ASEL</nom>
+        <nom idTrain="13">ASSA</nom>
+        <nom idTrain="14">AVEL</nom>
+        <nom idTrain="15">AVOL</nom>
+        <nom idTrain="16">AVOP</nom>
+        <nom idTrain="17">FOGI</nom>
+        <nom idTrain="18">LEMI</nom>
+        <nom idTrain="19">LEVA</nom>
+        <nom idTrain="20">LOMI</nom>
+        <nom idTrain="21">MOSA</nom>
+        <nom idTrain="22">ODDA</nom>
+        <nom idTrain="23">ODEA</nom>
+        <nom idTrain="24">OPOC</nom>
+        <nom idTrain="25">PEDA</nom>
+        <nom idTrain="26">PEMI</nom>
+        <nom idTrain="27">PERA</nom>
+        <nom idTrain="28">POMA</nom>
+        <nom idTrain="29">POTA</nom>
+        <nom idTrain="30">POVA</nom>
+        <nom idTrain="31">SOGA</nom>
+        <nom idTrain="32">TEGA</nom>
+        <nom idTrain="33">TER</nom>
+        <nom idTrain="34">TIMA</nom>
+        <nom idTrain="35">TOLI</nom>
+        <nom idTrain="36">TRIA</nom>
+        <nom idTrain="37">TSOL</nom>
+        <nom idTrain="38">TZEB</nom>
+        <nom idTrain="39">VERA</nom>
+        <nom idTrain="40">VOBA</nom>
+    </train>
+    <jours>
+        <jour nomJour="D">Circule les dimanches et jours fériés</jour>
+        <jour nomJour="DV">Circule tous les jours sauf les samedis</jour>
+        <jour nomJour="LS">Circule du lundi au samedi</jour>
+        <jour nomJour="LV">Circule du lundi au vendredi</jour>
+        <jour nomJour="S">Circule uniquement les samedis</jour>
+        <jour nomJour="SD">Circule les samedis, dimanches et jours fériés</jour>
+    </jours>
+    <trajets>
+        <trajet idTrain="7">
+            <depart idGare="33"/>
+            <arrive idGare="32"/>
+            <horaire idGare="33">04:39</horaire>
+            <horaire idGare="31">04:44</horaire>
+            <horaire idGare="38">04:47</horaire>
+            <horaire idGare="30">04:53</horaire>
+            <horaire idGare="5">04:56</horaire>
+            <horaire idGare="13">04:59</horaire>
+            <horaire idGare="14">05:02</horaire>
+            <horaire idGare="44">05:06</horaire>
+            <horaire idGare="23">05:08</horaire>
+            <horaire idGare="12">05:11</horaire>
+            <horaire idGare="16">05:14</horaire>
+            <horaire idGare="39">05:18</horaire>
+            <horaire idGare="32">05:24</horaire>
+        </trajet>
+        <trajet idTrain="9">
+            <depart idGare="18"/>
+            <arrive idGare="32"/>
+            <horaire idGare="18">04:58</horaire>
+            <horaire idGare="8">05:00</horaire>
+            <horaire idGare="15">05:03</horaire>
+            <horaire idGare="25">05:05</horaire>
+            <horaire idGare="16">05:07</horaire>
+            <horaire idGare="39">05:11</horaire>
+            <horaire idGare="32">05:17</horaire>
+        </trajet>
+        <trajet idTrain="6" nomJour="SD">
+            <depart idGare="26"/>
+            <arrive idGare="32"/>
+            <horaire idGare="26">05:06</horaire>
+            <horaire idGare="45">05:09</horaire>
+            <horaire idGare="49">05:12</horaire>
+            <horaire idGare="2">05:16</horaire>
+            <horaire idGare="50">05:20</horaire>
+            <horaire idGare="30">05:23</horaire>
+            <horaire idGare="5">05:26</horaire>
+            <horaire idGare="13">05:29</horaire>
+            <horaire idGare="14">05:32</horaire>
+            <horaire idGare="44">05:36</horaire>
+            <horaire idGare="23">05:38</horaire>
+            <horaire idGare="12">05:41</horaire>
+            <horaire idGare="16">05:44</horaire>
+            <horaire idGare="39">05:48</horaire>
+            <horaire idGare="32">05:54</horaire>
+        </trajet>
+        <trajet idTrain="3" nomJour="LV">
+            <depart idGare="33"/>
+            <arrive idGare="32"/>
+            <horaire idGare="33">05:38</horaire>
+            <horaire idGare="31">05:42</horaire>
+            <horaire idGare="38">05:45</horaire>
+            <horaire idGare="30">05:52</horaire>
+            <horaire idGare="5">05:55</horaire>
+            <horaire idGare="13">05:58</horaire>
+            <horaire idGare="14">06:01</horaire>
+            <horaire idGare="44">06:05</horaire>
+            <horaire idGare="16">06:10</horaire>
+            <horaire idGare="39">06:14</horaire>
+            <horaire idGare="32">06:20</horaire>
+        </trajet>
+        <trajet idTrain="5" nomJour="LV">
+            <depart idGare="44"/>
+            <arrive idGare="32"/>
+            <horaire idGare="44">06:12</horaire>
+            <horaire idGare="23">06:15</horaire>
+            <horaire idGare="12">06:18</horaire>
+            <horaire idGare="16">06:21</horaire>
+            <horaire idGare="39">06:25</horaire>
+            <horaire idGare="32">06:32</horaire>
+        </trajet>
+        <trajet idTrain="4" nomJour="LV">
+            <depart idGare="18"/>
+            <arrive idGare="32"/>
+            <horaire idGare="18">06:39</horaire>
+            <horaire idGare="8">06:41</horaire>
+            <horaire idGare="15">06:44</horaire>
+            <horaire idGare="25">06:46</horaire>
+            <horaire idGare="16">06:49</horaire>
+            <horaire idGare="39">06:52</horaire>
+            <horaire idGare="32">06:59</horaire>
+        </trajet>
+        <trajet idTrain="1" nomJour="LV">
+            <depart idGare="18"/>
+            <arrive idGare="32"/>
+            <horaire idGare="18">06:45</horaire>
+            <horaire idGare="15">06:49</horaire>
+            <horaire idGare="16">06:53</horaire>
+            <horaire idGare="39">06:57</horaire>
+            <horaire idGare="32">07:03</horaire>
+        </trajet>
+        <trajet idTrain="8" nomJour="LV">
+            <depart idGare="30"/>
+            <arrive idGare="32"/>
+            <horaire idGare="30">10:08</horaire>
+            <horaire idGare="5">10:11</horaire>
+            <horaire idGare="13">10:14</horaire>
+            <horaire idGare="14">10:17</horaire>
+            <horaire idGare="44">10:21</horaire>
+            <horaire idGare="23">10:23</horaire>
+            <horaire idGare="12">10:26</horaire>
+            <horaire idGare="16">10:29</horaire>
+            <horaire idGare="39">10:33</horaire>
+            <horaire idGare="32">10:39</horaire>
+        </trajet>
+        <trajet idTrain="2" nomJour="LV">
+            <depart idGare="18"/>
+            <arrive idGare="32"/>
+            <horaire idGare="18">16:31</horaire>
+            <horaire idGare="15">16:35</horaire>
+            <horaire idGare="16">16:38</horaire>
+            <horaire idGare="32">16:48</horaire>
+        </trajet>
+    </trajets>
 </ligne_H>
