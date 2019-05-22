@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!ELEMENT ligne_H (gares, train, jours, trajets)>
+    <!ELEMENT gares (gare+)>
+        <!ELEMENT gare (#PCDATA)>
+            <!ATTLIST gare
+                    idGare ID #REQUIRED>
+    <!ELEMENT train (nom+)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ATTLIST nom
+                idTrain ID #REQUIRED>
+    <!ELEMENT jours (jour+)>
+        <!ELEMENT jour (#PCDATA)>
+        <!ATTLIST jour
+                idJour ID #REQUIRED>
+    <!ELEMENT trajets (trajet+)>
+        <!ELEMENT trajet (depart, arrive, horaire+)>
+            <!ATTLIST trajet
+                    nomTrain IDREF #REQUIRED
+                    nomJour IDREF #IMPLIED>
+            <!ELEMENT depart EMPTY>
+                <!ATTLIST depart
+                        refGare IDREF #REQUIRED>
+            <!ELEMENT arrive EMPTY>
+                <!ATTLIST arrive
+                        refGare IDREF #REQUIRED>
+            <!ELEMENT horaire (#PCDATA)>
+                <!ATTLIST horaire
+                        refGare IDREF #REQUIRED>

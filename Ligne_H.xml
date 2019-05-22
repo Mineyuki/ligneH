@@ -1,222 +1,669 @@
-<?xml version = "1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version = "1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE ligne_H SYSTEM "ligne_H.dtd">
 
 <ligne_H>
     <gares>
-        <gare idGare="1">Auvers sur Oise</gare>
-        <gare idGare="2">Belloy Saint-Martin</gare>
-        <gare idGare="3">Bessancourt</gare>
-        <gare idGare="4">Boran sur Oise</gare>
-        <gare idGare="5">Bouffemont Moisselles</gare>
-        <gare idGare="6">Bruyeres sur Oise</gare>
-        <gare idGare="7">Cernay</gare>
-        <gare idGare="8">Champ de Courses d'Enghien</gare>
-        <gare idGare="9">Champagne sur Oise</gare>
-        <gare idGare="10">Chaponval</gare>
-        <gare idGare="11">Creil</gare>
-        <gare idGare="12">Deuil Montmagny</gare>
-        <gare idGare="13">Domont</gare>
-        <gare idGare="14">Ecouen Ezanville</gare>
-        <gare idGare="15">Enghien les Bains</gare>
-        <gare idGare="16">Epinay Villetaneuse</gare>
-        <gare idGare="17">Epluches</gare>
-        <gare idGare="18">Ermont Eaubonne</gare>
-        <gare idGare="19">Ermont Halte</gare>
-        <gare idGare="20">Franconville le Plessis Bouchard</gare>
-        <gare idGare="21">Frepillon</gare>
-        <gare idGare="22">Gros Noyer Saint-Prix</gare>
-        <gare idGare="23">Groslay</gare>
-        <gare idGare="24">L'Isle Adam Parmain</gare>
-        <gare idGare="25">La Barre Ormesson</gare>
-        <gare idGare="26">Luzarches</gare>
-        <gare idGare="27">Meriel</gare>
-        <gare idGare="28">Mery sur Oise</gare>
-        <gare idGare="29">Montigny Beauchamp</gare>
-        <gare idGare="30">Montsoult Maffliers</gare>
-        <gare idGare="31">Nointel Mours</gare>
-        <gare idGare="32">Paris Nord</gare>
-        <gare idGare="33">Persan Beaumont</gare>
-        <gare idGare="34">Pierrelaye</gare>
-        <gare idGare="35">Pont Petit</gare>
-        <gare idGare="36">Pontoise</gare>
-        <gare idGare="37">Precy sur Oise</gare>
-        <gare idGare="38">Presles Courcelles</gare>
-        <gare idGare="39">Saint-Denis</gare>
-        <gare idGare="40">Saint-Leu d'Esserent</gare>
-        <gare idGare="41">Saint-Leu la Foret</gare>
-        <gare idGare="42">Saint-Ouen l'Aumone</gare>
-        <gare idGare="43">Saint-Ouen l'Aumone Liesse</gare>
-        <gare idGare="44">Sarcelles Saint-Brice</gare>
-        <gare idGare="45">Seugy</gare>
-        <gare idGare="46">Taverny</gare>
-        <gare idGare="47">Valmondois</gare>
-        <gare idGare="48">Vaucelles</gare>
-        <gare idGare="49">Viarmes</gare>
-        <gare idGare="50">Villaines</gare>
+        <gare idGare="AuSO">Auvers sur Oise</gare>
+        <gare idGare="BeSM">Belloy Saint-Martin</gare>
+        <gare idGare="BES">Bessancourt</gare>
+        <gare idGare="BoSO">Boran sur Oise</gare>
+        <gare idGare="BoM">Bouffemont Moisselles</gare>
+        <gare idGare="BrSO">Bruyeres sur Oise</gare>
+        <gare idGare="CER">Cernay</gare>
+        <gare idGare="ChCE">Champ de Courses d'Enghien</gare>
+        <gare idGare="ChSO">Champagne sur Oise</gare>
+        <gare idGare="CHA">Chaponval</gare>
+        <gare idGare="CRE">Creil</gare>
+        <gare idGare="DeM">Deuil Montmagny</gare>
+        <gare idGare="DOM">Domont</gare>
+        <gare idGare="EcE">Ecouen Ezanville</gare>
+        <gare idGare="EnLB">Enghien les Bains</gare>
+        <gare idGare="EpV">Epinay Villetaneuse</gare>
+        <gare idGare="EPL">Epluches</gare>
+        <gare idGare="ErE">Ermont Eaubonne</gare>
+        <gare idGare="ErH">Ermont Halte</gare>
+        <gare idGare="FrPB">Franconville le Plessis Bouchard</gare>
+        <gare idGare="FRE">Frepillon</gare>
+        <gare idGare="GrNS">Gros Noyer Saint-Prix</gare>
+        <gare idGare="GRO">Groslay</gare>
+        <gare idGare="LiAP">L'Isle Adam Parmain</gare>
+        <gare idGare="LaBO">La Barre Ormesson</gare>
+        <gare idGare="LUZ">Luzarches</gare>
+        <gare idGare="MER">Meriel</gare>
+        <gare idGare="MeSO">Mery sur Oise</gare>
+        <gare idGare="MoB">Montigny Beauchamp</gare>
+        <gare idGare="MoM">Montsoult Maffliers</gare>
+        <gare idGare="NoM">Nointel Mours</gare>
+        <gare idGare="PaN">Paris Nord</gare>
+        <gare idGare="PeB">Persan Beaumont</gare>
+        <gare idGare="PIE">Pierrelaye</gare>
+        <gare idGare="PoP">Pont Petit</gare>
+        <gare idGare="PON">Pontoise</gare>
+        <gare idGare="PrSO">Precy sur Oise</gare>
+        <gare idGare="PrC">Presles Courcelles</gare>
+        <gare idGare="SaD">Saint-Denis</gare>
+        <gare idGare="SaLE">Saint-Leu d'Esserent</gare>
+        <gare idGare="SaLF">Saint-Leu la Foret</gare>
+        <gare idGare="SaOA">Saint-Ouen l'Aumone</gare>
+        <gare idGare="SaOAL">Saint-Ouen l'Aumone Liesse</gare>
+        <gare idGare="SaSB">Sarcelles Saint-Brice</gare>
+        <gare idGare="SEU">Seugy</gare>
+        <gare idGare="TAV">Taverny</gare>
+        <gare idGare="VAL">Valmondois</gare>
+        <gare idGare="VAU">Vaucelles</gare>
+        <gare idGare="VIA">Viarmes</gare>
+        <gare idGare="VIL">Villaines</gare>
     </gares>
     <train>
-        <nom idTrain="1">ADDO</nom>
-        <nom idTrain="2">ADEO</nom>
-        <nom idTrain="3">ADEP</nom>
-        <nom idTrain="4">AFOI</nom>
-        <nom idTrain="5">AOGA</nom>
-        <nom idTrain="6">AOLA</nom>
-        <nom idTrain="7">AOMA</nom>
-        <nom idTrain="8">AOSA</nom>
-        <nom idTrain="9">APOR</nom>
-        <nom idTrain="10">AREP</nom>
-        <nom idTrain="11">AREV</nom>
-        <nom idTrain="12">ASEL</nom>
-        <nom idTrain="13">ASSA</nom>
-        <nom idTrain="14">AVEL</nom>
-        <nom idTrain="15">AVOL</nom>
-        <nom idTrain="16">AVOP</nom>
-        <nom idTrain="17">FOGI</nom>
-        <nom idTrain="18">LEMI</nom>
-        <nom idTrain="19">LEVA</nom>
-        <nom idTrain="20">LOMI</nom>
-        <nom idTrain="21">MOSA</nom>
-        <nom idTrain="22">ODDA</nom>
-        <nom idTrain="23">ODEA</nom>
-        <nom idTrain="24">OPOC</nom>
-        <nom idTrain="25">PEDA</nom>
-        <nom idTrain="26">PEMI</nom>
-        <nom idTrain="27">PERA</nom>
-        <nom idTrain="28">POMA</nom>
-        <nom idTrain="29">POTA</nom>
-        <nom idTrain="30">POVA</nom>
-        <nom idTrain="31">SOGA</nom>
-        <nom idTrain="32">TEGA</nom>
-        <nom idTrain="33">TER</nom>
-        <nom idTrain="34">TIMA</nom>
-        <nom idTrain="35">TOLI</nom>
-        <nom idTrain="36">TRIA</nom>
-        <nom idTrain="37">TSOL</nom>
-        <nom idTrain="38">TZEB</nom>
-        <nom idTrain="39">VERA</nom>
-        <nom idTrain="40">VOBA</nom>
+        <nom idTrain="ADDO">ADDO</nom>
+        <nom idTrain="ADEO">ADEO</nom>
+        <nom idTrain="ADEP">ADEP</nom>
+        <nom idTrain="AFOI">AFOI</nom>
+        <nom idTrain="AOGA">AOGA</nom>
+        <nom idTrain="AOLA">AOLA</nom>
+        <nom idTrain="AOMA">AOMA</nom>
+        <nom idTrain="AOSA">AOSA</nom>
+        <nom idTrain="APOR">APOR</nom>
+        <nom idTrain="AREP">AREP</nom>
+        <nom idTrain="AREV">AREV</nom>
+        <nom idTrain="ASEL">ASEL</nom>
+        <nom idTrain="ASSA">ASSA</nom>
+        <nom idTrain="AVEL">AVEL</nom>
+        <nom idTrain="AVOL">AVOL</nom>
+        <nom idTrain="AVOP">AVOP</nom>
+        <nom idTrain="FOGI">FOGI</nom>
+        <nom idTrain="LEMI">LEMI</nom>
+        <nom idTrain="LEVA">LEVA</nom>
+        <nom idTrain="LOMI">LOMI</nom>
+        <nom idTrain="MOSA">MOSA</nom>
+        <nom idTrain="ODDA">ODDA</nom>
+        <nom idTrain="ODEA">ODEA</nom>
+        <nom idTrain="OPOC">OPOC</nom>
+        <nom idTrain="PEDA">PEDA</nom>
+        <nom idTrain="PEMI">PEMI</nom>
+        <nom idTrain="PERA">PERA</nom>
+        <nom idTrain="POMA">POMA</nom>
+        <nom idTrain="POTA">POTA</nom>
+        <nom idTrain="POVA">POVA</nom>
+        <nom idTrain="SOGA">SOGA</nom>
+        <nom idTrain="TEGA">TEGA</nom>
+        <nom idTrain="TER">TER</nom>
+        <nom idTrain="TIMA">TIMA</nom>
+        <nom idTrain="TOLI">TOLI</nom>
+        <nom idTrain="TRIA">TRIA</nom>
+        <nom idTrain="TSOL">TSOL</nom>
+        <nom idTrain="TZEB">TZEB</nom>
+        <nom idTrain="VERA">VERA</nom>
+        <nom idTrain="VOBA">VOBA</nom>
     </train>
     <jours>
-        <jour nomJour="D">Circule les dimanches et jours fÃ©riÃ©s</jour>
-        <jour nomJour="DV">Circule tous les jours sauf les samedis</jour>
-        <jour nomJour="LS">Circule du lundi au samedi</jour>
-        <jour nomJour="LV">Circule du lundi au vendredi</jour>
-        <jour nomJour="S">Circule uniquement les samedis</jour>
-        <jour nomJour="SD">Circule les samedis, dimanches et jours fÃ©riÃ©s</jour>
+        <jour idJour="D">Circule les dimanches et jours fériés</jour>
+        <jour idJour="DV">Circule tous les jours sauf les samedis</jour>
+        <jour idJour="LS">Circule du lundi au samedi</jour>
+        <jour idJour="LV">Circule du lundi au vendredi</jour>
+        <jour idJour="S">Circule uniquement les samedis</jour>
+        <jour idJour="SD">Circule les samedis, dimanches et jours fériés</jour>
     </jours>
     <trajets>
-        <trajet idTrain="7">
-            <depart idGare="33"/>
-            <arrive idGare="32"/>
-            <horaire idGare="33">04:39</horaire>
-            <horaire idGare="31">04:44</horaire>
-            <horaire idGare="38">04:47</horaire>
-            <horaire idGare="30">04:53</horaire>
-            <horaire idGare="5">04:56</horaire>
-            <horaire idGare="13">04:59</horaire>
-            <horaire idGare="14">05:02</horaire>
-            <horaire idGare="44">05:06</horaire>
-            <horaire idGare="23">05:08</horaire>
-            <horaire idGare="12">05:11</horaire>
-            <horaire idGare="16">05:14</horaire>
-            <horaire idGare="39">05:18</horaire>
-            <horaire idGare="32">05:24</horaire>
+        <trajet nomTrain="POTA">
+            <depart refGare="ErE"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="ErE">00:06</horaire>
+            <horaire refGare="ErH">00:09</horaire>
+            <horaire refGare="GrNS">00:11</horaire>
+            <horaire refGare="SaLF">00:14</horaire>
+            <horaire refGare="VAU">00:16</horaire>
+            <horaire refGare="TAV">00:18</horaire>
+            <horaire refGare="BES">00:21</horaire>
+            <horaire refGare="FRE">00:23</horaire>
+            <horaire refGare="MeSO">00:26</horaire>
+            <horaire refGare="MER">00:29</horaire>
+            <horaire refGare="VAL">00:33</horaire>
+            <horaire refGare="LiAP">00:36</horaire>
+            <horaire refGare="ChSO">00:39</horaire>
+            <horaire refGare="PeB">00:43</horaire>
         </trajet>
-        <trajet idTrain="9">
-            <depart idGare="18"/>
-            <arrive idGare="32"/>
-            <horaire idGare="18">04:58</horaire>
-            <horaire idGare="8">05:00</horaire>
-            <horaire idGare="15">05:03</horaire>
-            <horaire idGare="25">05:05</horaire>
-            <horaire idGare="16">05:07</horaire>
-            <horaire idGare="39">05:11</horaire>
-            <horaire idGare="32">05:17</horaire>
+        <trajet nomTrain="AOMA">
+            <depart refGare="PeB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="PeB">04:39</horaire>
+            <horaire refGare="NoM">04:44</horaire>
+            <horaire refGare="PrC">04:47</horaire>
+            <horaire refGare="MoM">04:53</horaire>
+            <horaire refGare="BoM">04:56</horaire>
+            <horaire refGare="DOM">04:59</horaire>
+            <horaire refGare="EcE">05:02</horaire>
+            <horaire refGare="SaSB">05:06</horaire>
+            <horaire refGare="GRO">05:08</horaire>
+            <horaire refGare="DeM">05:11</horaire>
+            <horaire refGare="EpV">05:14</horaire>
+            <horaire refGare="SaD">05:18</horaire>
+            <horaire refGare="PaN">05:24</horaire>
         </trajet>
-        <trajet idTrain="6" nomJour="SD">
-            <depart idGare="26"/>
-            <arrive idGare="32"/>
-            <horaire idGare="26">05:06</horaire>
-            <horaire idGare="45">05:09</horaire>
-            <horaire idGare="49">05:12</horaire>
-            <horaire idGare="2">05:16</horaire>
-            <horaire idGare="50">05:20</horaire>
-            <horaire idGare="30">05:23</horaire>
-            <horaire idGare="5">05:26</horaire>
-            <horaire idGare="13">05:29</horaire>
-            <horaire idGare="14">05:32</horaire>
-            <horaire idGare="44">05:36</horaire>
-            <horaire idGare="23">05:38</horaire>
-            <horaire idGare="12">05:41</horaire>
-            <horaire idGare="16">05:44</horaire>
-            <horaire idGare="39">05:48</horaire>
-            <horaire idGare="32">05:54</horaire>
+        <trajet nomTrain="APOR">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">04:58</horaire>
+            <horaire refGare="ChCE">05:00</horaire>
+            <horaire refGare="EnLB">05:03</horaire>
+            <horaire refGare="LaBO">05:05</horaire>
+            <horaire refGare="EpV">05:07</horaire>
+            <horaire refGare="SaD">05:11</horaire>
+            <horaire refGare="PaN">05:17</horaire>
         </trajet>
-        <trajet idTrain="3" nomJour="LV">
-            <depart idGare="33"/>
-            <arrive idGare="32"/>
-            <horaire idGare="33">05:38</horaire>
-            <horaire idGare="31">05:42</horaire>
-            <horaire idGare="38">05:45</horaire>
-            <horaire idGare="30">05:52</horaire>
-            <horaire idGare="5">05:55</horaire>
-            <horaire idGare="13">05:58</horaire>
-            <horaire idGare="14">06:01</horaire>
-            <horaire idGare="44">06:05</horaire>
-            <horaire idGare="16">06:10</horaire>
-            <horaire idGare="39">06:14</horaire>
-            <horaire idGare="32">06:20</horaire>
+        <trajet nomTrain="AOLA" nomJour="SD">
+            <depart refGare="LUZ"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="LUZ">05:06</horaire>
+            <horaire refGare="SEU">05:09</horaire>
+            <horaire refGare="VIA">05:12</horaire>
+            <horaire refGare="BeSM">05:16</horaire>
+            <horaire refGare="VIL">05:20</horaire>
+            <horaire refGare="MoM">05:23</horaire>
+            <horaire refGare="BoM">05:26</horaire>
+            <horaire refGare="DOM">05:29</horaire>
+            <horaire refGare="EcE">05:32</horaire>
+            <horaire refGare="SaSB">05:36</horaire>
+            <horaire refGare="GRO">05:38</horaire>
+            <horaire refGare="DeM">05:41</horaire>
+            <horaire refGare="EpV">05:44</horaire>
+            <horaire refGare="SaD">05:48</horaire>
+            <horaire refGare="PaN">05:54</horaire>
         </trajet>
-        <trajet idTrain="5" nomJour="LV">
-            <depart idGare="44"/>
-            <arrive idGare="32"/>
-            <horaire idGare="44">06:12</horaire>
-            <horaire idGare="23">06:15</horaire>
-            <horaire idGare="12">06:18</horaire>
-            <horaire idGare="16">06:21</horaire>
-            <horaire idGare="39">06:25</horaire>
-            <horaire idGare="32">06:32</horaire>
+        <trajet nomTrain="AVOP">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">05:13</horaire>
+            <horaire refGare="ChCE">05:15</horaire>
+            <horaire refGare="EnLB">05:18</horaire>
+            <horaire refGare="LaBO">05:20</horaire>
+            <horaire refGare="EpV">05:22</horaire>
+            <horaire refGare="SaD">05:26</horaire>
+            <horaire refGare="PaN">05:32</horaire>
         </trajet>
-        <trajet idTrain="4" nomJour="LV">
-            <depart idGare="18"/>
-            <arrive idGare="32"/>
-            <horaire idGare="18">06:39</horaire>
-            <horaire idGare="8">06:41</horaire>
-            <horaire idGare="15">06:44</horaire>
-            <horaire idGare="25">06:46</horaire>
-            <horaire idGare="16">06:49</horaire>
-            <horaire idGare="39">06:52</horaire>
-            <horaire idGare="32">06:59</horaire>
+        <trajet nomTrain="LOMI" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="LUZ"/>
+            <horaire refGare="PaN">05:19</horaire>
+            <horaire refGare="SaD">05:25</horaire>
+            <horaire refGare="EpV">05:29</horaire>
+            <horaire refGare="DeM">05:32</horaire>
+            <horaire refGare="GRO">05:35</horaire>
+            <horaire refGare="SaSB">05:38</horaire>
+            <horaire refGare="EcE">05:41</horaire>
+            <horaire refGare="DOM">05:44</horaire>
+            <horaire refGare="BoM">05:47</horaire>
+            <horaire refGare="MoM">05:52</horaire>
+            <horaire refGare="VIL">05:56</horaire>
+            <horaire refGare="BeSM">05:59</horaire>
+            <horaire refGare="VIA">06:02</horaire>
+            <horaire refGare="SEU">06:05</horaire>
+            <horaire refGare="LUZ">06:09</horaire>
         </trajet>
-        <trajet idTrain="1" nomJour="LV">
-            <depart idGare="18"/>
-            <arrive idGare="32"/>
-            <horaire idGare="18">06:45</horaire>
-            <horaire idGare="15">06:49</horaire>
-            <horaire idGare="16">06:53</horaire>
-            <horaire idGare="39">06:57</horaire>
-            <horaire idGare="32">07:03</horaire>
+        <trajet nomTrain="POVA" nomJour="SD">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">05:26</horaire>
+            <horaire refGare="SaD">05:32</horaire>
+            <horaire refGare="EpV">05:36</horaire>
+            <horaire refGare="LaBO">05:38</horaire>
+            <horaire refGare="EnLB">05:40</horaire>
+            <horaire refGare="ChCE">05:43</horaire>
+            <horaire refGare="ErE">05:46</horaire>
+            <horaire refGare="ErH">05:48</horaire>
+            <horaire refGare="GrNS">05:50</horaire>
+            <horaire refGare="SaLF">05:53</horaire>
+            <horaire refGare="VAU">05:56</horaire>
+            <horaire refGare="TAV">05:58</horaire>
+            <horaire refGare="BES">06:00</horaire>
+            <horaire refGare="FRE">06:03</horaire>
+            <horaire refGare="MeSO">06:05</horaire>
+            <horaire refGare="MER">06:09</horaire>
+            <horaire refGare="VAL">06:12</horaire>
+            <horaire refGare="LiAP">06:15</horaire>
+            <horaire refGare="ChSO">06:19</horaire>
+            <horaire refGare="PeB">06:22</horaire>
         </trajet>
-        <trajet idTrain="8" nomJour="LV">
-            <depart idGare="30"/>
-            <arrive idGare="32"/>
-            <horaire idGare="30">10:08</horaire>
-            <horaire idGare="5">10:11</horaire>
-            <horaire idGare="13">10:14</horaire>
-            <horaire idGare="14">10:17</horaire>
-            <horaire idGare="44">10:21</horaire>
-            <horaire idGare="23">10:23</horaire>
-            <horaire idGare="12">10:26</horaire>
-            <horaire idGare="16">10:29</horaire>
-            <horaire idGare="39">10:33</horaire>
-            <horaire idGare="32">10:39</horaire>
+        <trajet nomTrain="VOBA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="VAL"/>
+            <horaire refGare="PaN">05:26</horaire>
+            <horaire refGare="SaD">05:32</horaire>
+            <horaire refGare="EpV">05:36</horaire>
+            <horaire refGare="LaBO">05:38</horaire>
+            <horaire refGare="EnLB">05:40</horaire>
+            <horaire refGare="ChCE">05:43</horaire>
+            <horaire refGare="ErE">05:46</horaire>
+            <horaire refGare="ErH">05:48</horaire>
+            <horaire refGare="GrNS">05:50</horaire>
+            <horaire refGare="SaLF">05:53</horaire>
+            <horaire refGare="VAU">05:56</horaire>
+            <horaire refGare="TAV">05:58</horaire>
+            <horaire refGare="BES">06:00</horaire>
+            <horaire refGare="FRE">06:03</horaire>
+            <horaire refGare="MeSO">06:05</horaire>
+            <horaire refGare="MER">06:09</horaire>
+            <horaire refGare="VAL">06:11</horaire>
         </trajet>
-        <trajet idTrain="2" nomJour="LV">
-            <depart idGare="18"/>
-            <arrive idGare="32"/>
-            <horaire idGare="18">16:31</horaire>
-            <horaire idGare="15">16:35</horaire>
-            <horaire idGare="16">16:38</horaire>
-            <horaire idGare="32">16:48</horaire>
+        <trajet nomTrain="POMA">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">05:34</horaire>
+            <horaire refGare="SaD">05:40</horaire>
+            <horaire refGare="EpV">05:44</horaire>
+            <horaire refGare="DeM">05:47</horaire>
+            <horaire refGare="GRO">05:50</horaire>
+            <horaire refGare="SaSB">05:53</horaire>
+            <horaire refGare="EcE">05:56</horaire>
+            <horaire refGare="DOM">05:59</horaire>
+            <horaire refGare="BoM">06:02</horaire>
+            <horaire refGare="MoM">06:06</horaire>
+            <horaire refGare="PrC">06:12</horaire>
+            <horaire refGare="NoM">06:15</horaire>
+            <horaire refGare="PeB">06:19</horaire>
+        </trajet>
+        <trajet nomTrain="ADEP" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="PeB">05:38</horaire>
+            <horaire refGare="NoM">05:42</horaire>
+            <horaire refGare="PrC">05:45</horaire>
+            <horaire refGare="MoM">05:52</horaire>
+            <horaire refGare="BoM">05:55</horaire>
+            <horaire refGare="DOM">05:58</horaire>
+            <horaire refGare="EcE">06:01</horaire>
+            <horaire refGare="SaSB">06:05</horaire>
+            <horaire refGare="EpV">06:10</horaire>
+            <horaire refGare="SaD">06:14</horaire>
+            <horaire refGare="PaN">06:20</horaire>
+        </trajet>
+        <trajet nomTrain="OPOC">
+            <depart refGare="PaN"/>
+            <arrive refGare="ErE"/>
+            <horaire refGare="PaN">05:41</horaire>
+            <horaire refGare="SaD">05:47</horaire>
+            <horaire refGare="EpV">05:51</horaire>
+            <horaire refGare="LaBO">05:53</horaire>
+            <horaire refGare="EnLB">05:55</horaire>
+            <horaire refGare="ChCE">05:58</horaire>
+            <horaire refGare="ErE">06:00</horaire>
+        </trajet>
+        <trajet nomTrain="TZEB" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="CRE"/>
+            <horaire refGare="PeB">05:43</horaire>
+            <horaire refGare="BrSO">05:48</horaire>
+            <horaire refGare="BoSO">05:52</horaire>
+            <horaire refGare="PrSO">05:56</horaire>
+            <horaire refGare="SaLE">06:00</horaire>
+            <horaire refGare="CRE">06:06</horaire>
+        </trajet>
+        <trajet nomTrain="AVEL" nomJour="LV">
+            <depart refGare="LUZ"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="LUZ">05:49</horaire>
+            <horaire refGare="SEU">05:52</horaire>
+            <horaire refGare="VIA">05:55</horaire>
+            <horaire refGare="BeSM">05:59</horaire>
+            <horaire refGare="VIL">06:03</horaire>
+            <horaire refGare="MoM">06:07</horaire>
+            <horaire refGare="BoM">06:10</horaire>
+            <horaire refGare="DOM">06:13</horaire>
+            <horaire refGare="EcE">06:16</horaire>
+            <horaire refGare="SaSB">06:20</horaire>
+            <horaire refGare="EpV">06:25</horaire>
+            <horaire refGare="SaD">06:29</horaire>
+            <horaire refGare="PaN">06:35</horaire>
+        </trajet>
+        <trajet nomTrain="TIMA" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="PON"/>
+            <horaire refGare="PeB">05:49</horaire>
+            <horaire refGare="ChSO">05:54</horaire>
+            <horaire refGare="LiAP">05:58</horaire>
+            <horaire refGare="VAL">06:01</horaire>
+            <horaire refGare="AuSO">06:05</horaire>
+            <horaire refGare="CHA">06:09</horaire>
+            <horaire refGare="PoP">06:11</horaire>
+            <horaire refGare="EPL">06:13</horaire>
+            <horaire refGare="SaOA">06:17</horaire>
+            <horaire refGare="PON">06:19</horaire>
+        </trajet>
+        <trajet nomTrain="SOGA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="SaSB"/>
+            <horaire refGare="PaN">05:58</horaire>
+            <horaire refGare="SaD">06:04</horaire>
+            <horaire refGare="EpV">06:08</horaire>
+            <horaire refGare="DeM">06:11</horaire>
+            <horaire refGare="GRO">06:14</horaire>
+            <horaire refGare="SaSB">06:16</horaire>
+        </trajet>
+        <trajet nomTrain="TSOL" nomJour="S">
+            <depart refGare="PON"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PON">06:01</horaire>
+            <horaire refGare="SaOA">06:03</horaire>
+            <horaire refGare="EPL">06:07</horaire>
+            <horaire refGare="PoP">06:09</horaire>
+            <horaire refGare="CHA">06:11</horaire>
+            <horaire refGare="AuSO">06:15</horaire>
+            <horaire refGare="VAL">06:19</horaire>
+            <horaire refGare="LiAP">06:22</horaire>
+            <horaire refGare="ChSO">06:26</horaire>
+            <horaire refGare="PeB">06:43</horaire>
+            <horaire refGare="BrSO">06:48</horaire>
+            <horaire refGare="BoSO">06:52</horaire>
+            <horaire refGare="PrSO">06:57</horaire>
+            <horaire refGare="SaLE">07:00</horaire>
+            <horaire refGare="CRE">07:06</horaire>
+        </trajet>
+        <trajet nomTrain="PEMI" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">06:10</horaire>
+            <horaire refGare="SaSB">06:22</horaire>
+            <horaire refGare="EcE">06:26</horaire>
+            <horaire refGare="DOM">06:29</horaire>
+            <horaire refGare="BoM">06:32</horaire>
+            <horaire refGare="MoM">06:35</horaire>
+            <horaire refGare="PrC">06:41</horaire>
+            <horaire refGare="NoM">06:44</horaire>
+            <horaire refGare="PeB">06:48</horaire>
+        </trajet>
+        <trajet nomTrain="AOGA" nomJour="LV">
+            <depart refGare="SaSB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="SaSB">06:12</horaire>
+            <horaire refGare="GRO">06:15</horaire>
+            <horaire refGare="DeM">06:18</horaire>
+            <horaire refGare="EpV">06:21</horaire>
+            <horaire refGare="SaD">06:25</horaire>
+            <horaire refGare="PaN">06:32</horaire>
+        </trajet>
+        <trajet nomTrain="TOLI" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="VAL"/>
+            <horaire refGare="PeB">06:19</horaire>
+            <horaire refGare="ChSO">06:24</horaire>
+            <horaire refGare="LiAP">06:28</horaire>
+            <horaire refGare="VAL">06:31</horaire>
+        </trajet>
+        <trajet nomTrain="TER" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="PeB">06:24</horaire>
+            <horaire refGare="PaN">06:55</horaire>
+        </trajet>
+        <trajet nomTrain="TER" nomJour="S">
+            <depart refGare="PeB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="PeB">06:24</horaire>
+            <horaire refGare="PaN">06:58</horaire>
+        </trajet>
+        <trajet nomTrain="TIMA" nomJour="D">
+            <depart refGare="PeB"/>
+            <arrive refGare="VAL"/>
+            <horaire refGare="PeB">06:24</horaire>
+            <horaire refGare="ChSO">06:29</horaire>
+            <horaire refGare="LiAP">06:33</horaire>
+            <horaire refGare="VAL">06:36</horaire>
+            <horaire refGare="AuSO">06:40</horaire>
+            <horaire refGare="CHA">06:44</horaire>
+            <horaire refGare="PoP">06:46</horaire>
+            <horaire refGare="EPL">06:48</horaire>
+            <horaire refGare="SaOA">06:52</horaire>
+            <horaire refGare="PON">06:54</horaire>
+        </trajet>
+        <trajet nomTrain="LEMI" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="LUZ"/>
+            <horaire refGare="PaN">06:25</horaire>
+            <horaire refGare="SaSB">06:37</horaire>
+            <horaire refGare="EcE">06:41</horaire>
+            <horaire refGare="DOM">06:44</horaire>
+            <horaire refGare="BoM">06:47</horaire>
+            <horaire refGare="MoM">06:51</horaire>
+            <horaire refGare="VIL">06:55</horaire>
+            <horaire refGare="BeSM">06:59</horaire>
+            <horaire refGare="VIA">07:03</horaire>
+            <horaire refGare="SEU">07:06</horaire>
+            <horaire refGare="LUZ">07:09</horaire>
+        </trajet>
+        <trajet nomTrain="AREV" nomJour="LV">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">06:35</horaire>
+            <horaire refGare="EnLB">06:38</horaire>
+            <horaire refGare="LaBO">06:41</horaire>
+            <horaire refGare="EpV">06:43</horaire>
+            <horaire refGare="PaN">06:51</horaire>
+        </trajet>
+        <trajet nomTrain="AFOI" nomJour="LV">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">06:39</horaire>
+            <horaire refGare="ChCE">06:41</horaire>
+            <horaire refGare="EnLB">06:44</horaire>
+            <horaire refGare="LaBO">06:46</horaire>
+            <horaire refGare="EpV">06:49</horaire>
+            <horaire refGare="SaD">06:52</horaire>
+            <horaire refGare="PaN">06:59</horaire>
+        </trajet>
+        <trajet nomTrain="ODEA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="ErE"/>
+            <horaire refGare="PaN">06:41</horaire>
+            <horaire refGare="EpV">06:50</horaire>
+            <horaire refGare="EnLB">06:54</horaire>
+            <horaire refGare="ErE">06:58</horaire>
+        </trajet>
+        <trajet nomTrain="ADDO" nomJour="LV">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">06:45</horaire>
+            <horaire refGare="EnLB">06:49</horaire>
+            <horaire refGare="EpV">06:53</horaire>
+            <horaire refGare="SaD">06:57</horaire>
+            <horaire refGare="PaN">07:03</horaire>
+        </trajet>
+        <trajet nomTrain="FOGI" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="ErE"/>
+            <horaire refGare="PaN">06:45</horaire>
+            <horaire refGare="SaD">06:51</horaire>
+            <horaire refGare="EpV">06:55</horaire>
+            <horaire refGare="LaBO">06:57</horaire>
+            <horaire refGare="EnLB">06:59</horaire>
+            <horaire refGare="ChCE">07:02</horaire>
+            <horaire refGare="ErE">07:04</horaire>
+        </trajet>
+        <trajet nomTrain="AREP" nomJour="LV">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">06:50</horaire>
+            <horaire refGare="EnLB">06:53</horaire>
+            <horaire refGare="LaBO">06:56</horaire>
+            <horaire refGare="EpV">06:58</horaire>
+            <horaire refGare="PaN">07:06</horaire>
+        </trajet>
+        <trajet nomTrain="TRIA" nomJour="LV">
+            <depart refGare="VAL"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="VAL">07:53</horaire>
+            <horaire refGare="LiAP">07:56</horaire>
+            <horaire refGare="ChSO">08:00</horaire>
+            <horaire refGare="PeB">08:04</horaire>
+        </trajet>
+        <trajet nomTrain="AVOL" nomJour="SD">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">09:13</horaire>
+            <horaire refGare="ChCE">09:15</horaire>
+            <horaire refGare="EnLB">09:18</horaire>
+            <horaire refGare="LaBO">09:20</horaire>
+            <horaire refGare="EpV">09:22</horaire>
+            <horaire refGare="SaD">09:26</horaire>
+            <horaire refGare="PaN">09:32</horaire>
+        </trajet>
+        <trajet nomTrain="MOSA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="MoM"/>
+            <horaire refGare="PaN">09:19</horaire>
+            <horaire refGare="SaD">09:25</horaire>
+            <horaire refGare="EpV">09:29</horaire>
+            <horaire refGare="DeM">09:32</horaire>
+            <horaire refGare="GRO">09:35</horaire>
+            <horaire refGare="SaSB">09:38</horaire>
+            <horaire refGare="EcE">09:41</horaire>
+            <horaire refGare="DOM">09:44</horaire>
+            <horaire refGare="BoM">09:47</horaire>
+            <horaire refGare="MoM">09:50</horaire>
+        </trajet>
+        <trajet nomTrain="AOSA" nomJour="LV">
+            <depart refGare="MoM"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="MoM">10:08</horaire>
+            <horaire refGare="BoM">10:11</horaire>
+            <horaire refGare="DOM">10:14</horaire>
+            <horaire refGare="EcE">10:17</horaire>
+            <horaire refGare="SaSB">10:21</horaire>
+            <horaire refGare="GRO">10:23</horaire>
+            <horaire refGare="DeM">10:26</horaire>
+            <horaire refGare="EpV">10:29</horaire>
+            <horaire refGare="SaD">10:33</horaire>
+            <horaire refGare="PaN">10:39</horaire>
+        </trajet>
+        <trajet nomTrain="TIMA" nomJour="LS">
+            <depart refGare="PeB"/>
+            <arrive refGare="VAL"/>
+            <horaire refGare="PeB">11:54</horaire>
+            <horaire refGare="ChSO">11:58</horaire>
+            <horaire refGare="LiAP">12:03</horaire>
+            <horaire refGare="VAL">12:05</horaire>
+        </trajet>
+        <trajet nomTrain="ASSA" nomJour="LV">
+            <depart refGare="PeB"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="PeB">16:09</horaire>
+            <horaire refGare="NoM">16:14</horaire>
+            <horaire refGare="PrC">16:17</horaire>
+            <horaire refGare="MoM">16:25</horaire>
+            <horaire refGare="BoM">16:28</horaire>
+            <horaire refGare="DOM">16:30</horaire>
+            <horaire refGare="EcE">16:33</horaire>
+            <horaire refGare="SaSB">16:37</horaire>
+            <horaire refGare="PaN">16:50</horaire>
+        </trajet>
+        <trajet nomTrain="PEDA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">16:10</horaire>
+            <horaire refGare="SaD">16:16</horaire>
+            <horaire refGare="EpV">16:20</horaire>
+            <horaire refGare="SaSB">16:26</horaire>
+            <horaire refGare="EcE">16:29</horaire>
+            <horaire refGare="DOM">16:32</horaire>
+            <horaire refGare="BoM">16:35</horaire>
+            <horaire refGare="MoM">16:38</horaire>
+            <horaire refGare="PrC">16:44</horaire>
+            <horaire refGare="NoM">16:47</horaire>
+            <horaire refGare="PeB">16:51</horaire>
+        </trajet>
+        <trajet nomTrain="ODDA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="ErE"/>
+            <horaire refGare="PaN">16:11</horaire>
+            <horaire refGare="SaD">16:17</horaire>
+            <horaire refGare="EpV">16:21</horaire>
+            <horaire refGare="EnLB">16:25</horaire>
+            <horaire refGare="ErE">16:28</horaire>
+        </trajet>
+        <trajet nomTrain="PERA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">16:23</horaire>
+            <horaire refGare="EpV">16:31</horaire>
+            <horaire refGare="LaBO">16:34</horaire>
+            <horaire refGare="EnLB">16:36</horaire>
+            <horaire refGare="ErE">16:41</horaire>
+            <horaire refGare="ErH">16:44</horaire>
+            <horaire refGare="GrNS">16:46</horaire>
+            <horaire refGare="SaLF">16:49</horaire>
+            <horaire refGare="VAU">16:51</horaire>
+            <horaire refGare="TAV">16:53</horaire>
+            <horaire refGare="BES">16:56</horaire>
+            <horaire refGare="FRE">16:58</horaire>
+            <horaire refGare="MeSO">17:01</horaire>
+            <horaire refGare="MER">17:04</horaire>
+            <horaire refGare="VAL">17:07</horaire>
+            <horaire refGare="LiAP">17:11</horaire>
+            <horaire refGare="ChSO">17:14</horaire>
+            <horaire refGare="PeB">17:18</horaire>
+        </trajet>
+        <trajet nomTrain="LEVA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="LUZ"/>
+            <horaire refGare="PaN">16:25</horaire>
+            <horaire refGare="SaD">16:31</horaire>
+            <horaire refGare="EpV">16:35</horaire>
+            <horaire refGare="SaSB">16:41</horaire>
+            <horaire refGare="EcE">16:44</horaire>
+            <horaire refGare="DOM">16:47</horaire>
+            <horaire refGare="BoM">16:50</horaire>
+            <horaire refGare="MoM">16:54</horaire>
+            <horaire refGare="VIL">16:58</horaire>
+            <horaire refGare="BeSM">17:02</horaire>
+            <horaire refGare="VIA">17:06</horaire>
+            <horaire refGare="SEU">17:09</horaire>
+            <horaire refGare="LUZ">17:12</horaire>
+        </trajet>
+        <trajet nomTrain="ADEO" nomJour="LV">
+            <depart refGare="ErE"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="ErE">16:31</horaire>
+            <horaire refGare="EnLB">16:35</horaire>
+            <horaire refGare="EpV">16:38</horaire>
+            <horaire refGare="PaN">16:48</horaire>
+        </trajet>
+        <trajet nomTrain="VERA" nomJour="LV">
+            <depart refGare="PaN"/>
+            <arrive refGare="VAL"/>
+            <horaire refGare="PaN">16:38</horaire>
+            <horaire refGare="EpV">16:46</horaire>
+            <horaire refGare="LaBO">16:49</horaire>
+            <horaire refGare="EnLB">16:51</horaire>
+            <horaire refGare="ErE">16:56</horaire>
+            <horaire refGare="ErH">16:59</horaire>
+            <horaire refGare="GrNS">17:01</horaire>
+            <horaire refGare="SaLF">17:04</horaire>
+            <horaire refGare="VAU">17:06</horaire>
+            <horaire refGare="TAV">17:08</horaire>
+            <horaire refGare="BES">17:11</horaire>
+            <horaire refGare="FRE">17:13</horaire>
+            <horaire refGare="MeSO">17:16</horaire>
+            <horaire refGare="MER">17:19</horaire>
+            <horaire refGare="VAL">17:22</horaire>
+        </trajet>
+        <trajet nomTrain="ASEL" nomJour="LV">
+            <depart refGare="MoM"/>
+            <arrive refGare="PaN"/>
+            <horaire refGare="MoM">16:40</horaire>
+            <horaire refGare="BoM">16:43</horaire>
+            <horaire refGare="DOM">16:45</horaire>
+            <horaire refGare="EcE">16:48</horaire>
+            <horaire refGare="SaSB">16:52</horaire>
+            <horaire refGare="PaN">17:05</horaire>
+        </trajet>
+        <trajet nomTrain="TEGA" nomJour="LV">
+            <depart refGare="CRE"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="CRE">21:50</horaire>
+            <horaire refGare="SaLE">21:57</horaire>
+            <horaire refGare="PrSO">22:01</horaire>
+            <horaire refGare="BoSO">22:06</horaire>
+            <horaire refGare="BrSO">22:11</horaire>
+            <horaire refGare="PeB">22:15</horaire>
         </trajet>
     </trajets>
 </ligne_H>
