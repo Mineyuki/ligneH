@@ -141,8 +141,15 @@
             <horaire refGare="PaN">05:24</horaire>
         </trajet>
         <trajet nomTrain="APOR">
-            <depart refGare="ErE"/>
+            <depart refGare="PON"/>
             <arrive refGare="PaN"/>
+            <horaire refGare="PON">04:36</horaire>
+            <horaire refGare="SaOA">04:39</horaire>
+            <horaire refGare="SaOAL">04:42</horaire>
+            <horaire refGare="PIE">04:45</horaire>
+            <horaire refGare="MoB">04:49</horaire>
+            <horaire refGare="FrPB">04:52</horaire>
+            <horaire refGare="CER">04:55</horaire>
             <horaire refGare="ErE">04:58</horaire>
             <horaire refGare="ChCE">05:00</horaire>
             <horaire refGare="EnLB">05:03</horaire>
@@ -279,14 +286,21 @@
         </trajet>
         <trajet nomTrain="OPOC">
             <depart refGare="PaN"/>
-            <arrive refGare="ErE"/>
+            <arrive refGare="PON"/>
             <horaire refGare="PaN">05:41</horaire>
             <horaire refGare="SaD">05:47</horaire>
             <horaire refGare="EpV">05:51</horaire>
             <horaire refGare="LaBO">05:53</horaire>
             <horaire refGare="EnLB">05:55</horaire>
             <horaire refGare="ChCE">05:58</horaire>
-            <horaire refGare="ErE">06:00</horaire>
+            <horaire refGare="ErE">06:01</horaire>
+            <horaire refGare="CER">06:03</horaire>
+            <horaire refGare="FrPB">06:06</horaire>
+            <horaire refGare="MoB">06:10</horaire>
+            <horaire refGare="PIE">06:13</horaire>
+            <horaire refGare="SaOAL">06:17</horaire>
+            <horaire refGare="SaOA">06:20</horaire>
+            <horaire refGare="PON">06:22</horaire>
         </trajet>
         <trajet nomTrain="TZEB" nomJour="LV">
             <depart refGare="PeB"/>
@@ -341,7 +355,7 @@
         </trajet>
         <trajet nomTrain="TSOL" nomJour="S">
             <depart refGare="PON"/>
-            <arrive refGare="PeB"/>
+            <arrive refGare="CRE"/>
             <horaire refGare="PON">06:01</horaire>
             <horaire refGare="SaOA">06:03</horaire>
             <horaire refGare="EPL">06:07</horaire>
@@ -382,12 +396,23 @@
             <horaire refGare="PaN">06:32</horaire>
         </trajet>
         <trajet nomTrain="TOLI" nomJour="LV">
-            <depart refGare="PeB"/>
-            <arrive refGare="VAL"/>
+            <depart refGare="CRE"/>
+            <arrive refGare="PON"/>
+            <horaire refGare="CRE">05:50</horaire>
+            <horaire refGare="SaLE">05:57</horaire>
+            <horaire refGare="PrSO">06:01</horaire>
+            <horaire refGare="BoSO">06:06</horaire>
+            <horaire refGare="BrSO">06:11</horaire>
             <horaire refGare="PeB">06:19</horaire>
             <horaire refGare="ChSO">06:24</horaire>
             <horaire refGare="LiAP">06:28</horaire>
             <horaire refGare="VAL">06:31</horaire>
+            <horaire refGare="AuSO">06:35</horaire>
+            <horaire refGare="CHA">06:39</horaire>
+            <horaire refGare="PoP">06:41</horaire>
+            <horaire refGare="EPL">06:43</horaire>
+            <horaire refGare="SaOA">06:47</horaire>
+            <horaire refGare="PON">06:49</horaire>
         </trajet>
         <trajet nomTrain="TER" nomJour="LV">
             <depart refGare="PeB"/>
@@ -403,7 +428,7 @@
         </trajet>
         <trajet nomTrain="TIMA" nomJour="D">
             <depart refGare="PeB"/>
-            <arrive refGare="VAL"/>
+            <arrive refGare="PON"/>
             <horaire refGare="PeB">06:24</horaire>
             <horaire refGare="ChSO">06:29</horaire>
             <horaire refGare="LiAP">06:33</horaire>
@@ -452,15 +477,29 @@
         </trajet>
         <trajet nomTrain="ODEA" nomJour="LV">
             <depart refGare="PaN"/>
-            <arrive refGare="ErE"/>
+            <arrive refGare="PON"/>
             <horaire refGare="PaN">06:41</horaire>
             <horaire refGare="EpV">06:50</horaire>
             <horaire refGare="EnLB">06:54</horaire>
-            <horaire refGare="ErE">06:58</horaire>
+            <horaire refGare="ErE">06:59</horaire>
+            <horaire refGare="CER">07:02</horaire>
+            <horaire refGare="FrPB">07:05</horaire>
+            <horaire refGare="MoB">07:09</horaire>
+            <horaire refGare="PIE">07:13</horaire>
+            <horaire refGare="SaOAL">07:16</horaire>
+            <horaire refGare="SaOA">07:19</horaire>
+            <horaire refGare="PON">07:21</horaire>
         </trajet>
         <trajet nomTrain="ADDO" nomJour="LV">
-            <depart refGare="ErE"/>
+            <depart refGare="PON"/>
             <arrive refGare="PaN"/>
+            <horaire refGare="PON">06:22</horaire>
+            <horaire refGare="SaOA">06:24</horaire>
+            <horaire refGare="SaOAL">06:28</horaire>
+            <horaire refGare="PIE">06:31</horaire>
+            <horaire refGare="MoB">06:35</horaire>
+            <horaire refGare="FrPB">06:39</horaire>
+            <horaire refGare="CER">06:42</horaire>
             <horaire refGare="ErE">06:45</horaire>
             <horaire refGare="EnLB">06:49</horaire>
             <horaire refGare="EpV">06:53</horaire>
@@ -654,6 +693,12 @@
             <horaire refGare="EcE">16:48</horaire>
             <horaire refGare="SaSB">16:52</horaire>
             <horaire refGare="PaN">17:05</horaire>
+        </trajet>
+        <trajet nomTrain="TER" nomJour="DV">
+            <depart refGare="PaN"/>
+            <arrive refGare="PeB"/>
+            <horaire refGare="PaN">21:01</horaire>
+            <horaire refGare="PeB">21:35</horaire>
         </trajet>
         <trajet nomTrain="TEGA" nomJour="LV">
             <depart refGare="CRE"/>
