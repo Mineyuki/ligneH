@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:simpleType name="time">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-2][0-9]:[0-5][0-9]"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
     <xsd:element name="ligne_H">
         <xsd:complexType>
-            <xsd:sequence>
+            <xsd:all>
                 <xsd:element ref="gares"/>
                 <xsd:element ref="train"/>
                 <xsd:element ref="jours"/>
                 <xsd:element ref="trajets"/>
-            </xsd:sequence>
+            </xsd:all>
         </xsd:complexType>
     </xsd:element>
+
     <xsd:element name="gares">
         <xsd:complexType>
             <xsd:sequence>
@@ -26,6 +33,7 @@
             </xsd:simpleContent>
         </xsd:complexType>
     </xsd:element>
+
     <xsd:element name="train">
         <xsd:complexType>
             <xsd:sequence>
@@ -42,6 +50,7 @@
             </xsd:simpleContent>
         </xsd:complexType>
     </xsd:element>
+
     <xsd:element name="jours">
         <xsd:complexType>
             <xsd:sequence>
@@ -58,6 +67,7 @@
             </xsd:simpleContent>
         </xsd:complexType>
     </xsd:element>
+
     <xsd:element name="trajets">
         <xsd:complexType>
             <xsd:sequence>
@@ -72,8 +82,8 @@
                 <xsd:element ref="arrive"/>
                 <xsd:element ref="horaire" maxOccurs="unbounded"/>
             </xsd:sequence>
-            <xsd:attribute name="nomJour" type="xsd:string"/>
             <xsd:attribute name="nomTrain" type="xsd:string" use="required"/>
+            <xsd:attribute name="nomJour" type="xsd:string"/>
         </xsd:complexType>
     </xsd:element>
     <xsd:element name="depart">
@@ -89,7 +99,7 @@
     <xsd:element name="horaire">
         <xsd:complexType mixed="true">
             <xsd:simpleContent>
-                <xsd:extension base="xsd:date">
+                <xsd:extension base="time">
                     <xsd:attribute name="refGare" type="xsd:string" use="required"/>
                 </xsd:extension>
             </xsd:simpleContent>

@@ -1,7 +1,9 @@
 <?xml version = "1.0" encoding="ISO-8859-1" standalone="no" ?>
 <!DOCTYPE ligne_H SYSTEM "Ligne_H.dtd">
 
-<ligne_H>
+<ligne_H
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="file:Ligne_H.xsd">
     <gares>
         <gare idGare="AuSO">Auvers sur Oise</gare>
         <gare idGare="BeSM">Belloy Saint-Martin</gare>
